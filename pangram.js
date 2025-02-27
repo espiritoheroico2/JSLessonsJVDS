@@ -24,7 +24,7 @@ function isPangram(sentence)
         return false;  
     }
     //o codigo aqui que deve retornar true or false
-    let s = sentence.toLowerCase().replace(/[^a-z]/, '');
+    let s = sentence.toLowerCase().replace(/[^a-z]/g, '');
     let missingletters = [];
 
     for(let i = 0; i < alphabet.length; i++)
