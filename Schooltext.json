@@ -1,0 +1,15 @@
+{
+  "alunos": {
+    "1": [
+      "Bob"
+    ],
+    "2": [
+      "Charlie"
+    ]
+  },
+  "materias": {
+    "médio": [
+      "Biologia"
+    ]
+  }
+}
