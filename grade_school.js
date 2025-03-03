@@ -30,11 +30,11 @@ function add(nome, serie)
 
 function addMaterias(mat,grau)
 {
-    if(!(grau in school))
+    if(!(mat in school))
         {
-            school.materias[grau] =[]
+            school.materias[mat] =[]
         }
-    school.materias[grau].push(mat);
+    school.materias[mat].push(grau);
 
 }
 
@@ -59,6 +59,8 @@ add("Bob", 1);
 add("Charlie", 2);
 
 addMaterias("Biologia", "médio");
+addMaterias("Matematica", "dificil");
+
 console.log(checarLista()); // { '1': ['Bob'], '2': ['Alice', 'Charlie'] }
 saveToFile();
 

@@ -8,8 +8,11 @@
     ]
   },
   "materias": {
-    "médio": [
-      "Biologia"
+    "Biologia": [
+      "médio"
+    ],
+    "Matematica": [
+      "dificil"
     ]
   }
 }
