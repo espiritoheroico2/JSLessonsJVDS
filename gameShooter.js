@@ -1,5 +1,6 @@
 const canvas = document.getElementById('gameCanvas');
         const ctx = canvas.getContext('2d');
+        //por algum motivo ele buga pra iniciar no web view. obg visual code
 
         // Carregar a imagem da nave
         const naveImg = new Image();
