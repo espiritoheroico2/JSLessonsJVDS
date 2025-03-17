@@ -29,3 +29,4 @@ desenharTrianguloEstrelas(5);
 // 4. Calcula estrelas usando a fórmula (2*i-1) para criar o formato triangular
 // 5. Mostra cada linha combinando espaços e estrelas
 //testar mais vezes pra não esquecer
+//mais um commit para o github
