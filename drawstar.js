@@ -28,3 +28,4 @@ desenharTrianguloEstrelas(5);
 // 3. Calcula espaços usando repeat() para alinhar o triângulo
 // 4. Calcula estrelas usando a fórmula (2*i-1) para criar o formato triangular
 // 5. Mostra cada linha combinando espaços e estrelas
+//testar mais vezes pra não esquecer
